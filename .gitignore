@@ -1,0 +1,34 @@
+# Dart and Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+.gradle/
+.kotlin/
+local.properties
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+**/android/app/src/main/java/io/flutter/plugins/
+
+# iOS: the SDK binary is downloaded by tool/fetch-ios-sdk.sh
+ios/moonetix_offerwall/Frameworks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+xcuserdata/
+.swiftpm/
+
+# Local
+.env
+.idea/
+*.iml
+.DS_Store
