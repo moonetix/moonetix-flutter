@@ -1,0 +1,50 @@
+group = "com.moonetix.offerwall.flutter"
+version = "2.0.1"
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://moonetix.com/maven")
+            content {
+                includeGroup("com.moonetix")
+            }
+        }
+    }
+}
+
+apply plugin: "com.android.library"
+
+android {
+    namespace = "com.moonetix.offerwall.flutter"
+    compileSdk = 35
+
+    defaultConfig {
+        minSdk = 21
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    lint {
+        disable "GradleDependency", "NewerVersionAvailable"
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+        unitTests.all {
+            testLogging {
+                events "passed", "skipped", "failed", "standardError"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation("com.moonetix:offerwall:2.0.1")
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.mockito:mockito-core:5.14.2")
+}
