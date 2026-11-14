@@ -7,14 +7,13 @@
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
 [![pub](https://img.shields.io/badge/pub-moonetix__offerwall%202.0.1-02569B)](https://docs.moonetix.com/flutter-sdk#install)
 [![Docs](https://img.shields.io/badge/docs-docs.moonetix.com-004ABB)](https://docs.moonetix.com/flutter-sdk)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-moonetix-flutter)
 [![Flutter 3.27+](https://img.shields.io/badge/Flutter-3.27%2B-02569B)](https://moonetix.com/integrations/flutter)
 
 This is the source of the `moonetix_offerwall` plugin for [Moonetix](https://moonetix.com). It uses the native Moonetix Android and iOS SDKs: the offerwall opens in a locked-down native screen, offer links go to the store or the browser, and a few typed events come back to your Dart code. Moonetix is an affiliate network: your users earn your own currency by completing offers, and you earn per completed offer.
 
 The source matches the released 2.0.1 plugin. For apps, install it from the Moonetix pub repository as shown below.
 
-> **Get your App ID and API key: sign up free at https://moonetix.com/register?from=github-moonetix-flutter**
+> To run it you need your Moonetix App ID and API key: see [Apply as a publisher](#apply-as-a-publisher).
 
 ## What the plugin gives you
 
@@ -201,7 +200,7 @@ For error codes and fixes, see [Troubleshooting](https://docs.moonetix.com/flutt
 
 ## Apply as a publisher
 
-**https://moonetix.com/register?from=github-moonetix-flutter** (free). Applications are checked by hand. Once approved, add your app, set the currency name and rate, pass the App ID to `Moonetix.init`, and keep the API key on your server.
+https://moonetix.com/register?from=github-moonetix-flutter (free). Applications are checked by hand. Once approved, add your app, set the currency name and rate, pass the App ID to `Moonetix.init`, and keep the API key on your server.
 
 ## More Moonetix examples
 
