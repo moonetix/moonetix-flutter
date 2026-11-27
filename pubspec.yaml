@@ -1,7 +1,14 @@
 name: moonetix_offerwall
 description: Show the Moonetix offerwall in your Flutter app. Your server creates a single-use session token, and the plugin opens the offerwall with it.
-version: 2.0.1
+version: 2.0.2
 homepage: https://docs.moonetix.com/flutter-sdk
+repository: https://github.com/moonetix/moonetix-flutter
+topics:
+  - offerwall
+  - monetization
+  - ads
+  - rewards
+  - sdk
 
 environment:
   sdk: ">=3.6.0 <4.0.0"

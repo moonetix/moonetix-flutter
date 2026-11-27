@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'moonetix_offerwall'
-  s.version          = '2.0.1'
+  s.version          = '2.0.2'
   s.summary          = 'Moonetix offerwall for Flutter apps.'
   s.description      = <<-DESC
 Flutter plugin for the Moonetix offerwall. On iOS it uses the Moonetix iOS SDK (MoonetixOfferwall 2.0.1).

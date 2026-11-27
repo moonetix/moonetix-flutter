@@ -22,7 +22,7 @@ import 'validation.dart';
 /// [MoonetixListener]. The methods never throw for them.
 abstract final class Moonetix {
   /// Version of this plugin.
-  static const String version = '2.0.1';
+  static const String version = '2.0.2';
 
   static String? _appId;
   static bool _initRejected = false;

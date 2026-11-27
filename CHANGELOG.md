@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [2.0.2] - 2026-11-27
+
+### Changed
+
+- Published on pub.dev. Install with `flutter pub add moonetix_offerwall`; no hosted repository needed.
+- No code changes. Still uses the Android and iOS SDK 2.0.1.
+
 ## [2.0.1] - 2026-11-11
 
 ### Changed

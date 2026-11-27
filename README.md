@@ -5,13 +5,13 @@
 [![CI](https://github.com/moonetix/moonetix-flutter/actions/workflows/ci.yml/badge.svg)](https://github.com/moonetix/moonetix-flutter/actions/workflows/ci.yml)
 [![Maintained by Moonetix](https://img.shields.io/badge/maintained%20by-Moonetix-004ABB)](https://moonetix.com)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
-[![pub](https://img.shields.io/badge/pub-moonetix__offerwall%202.0.1-02569B)](https://docs.moonetix.com/flutter-sdk#install)
+[![pub](https://img.shields.io/pub/v/moonetix_offerwall?color=02569B)](https://pub.dev/packages/moonetix_offerwall)
 [![Docs](https://img.shields.io/badge/docs-docs.moonetix.com-004ABB)](https://docs.moonetix.com/flutter-sdk)
 [![Flutter 3.27+](https://img.shields.io/badge/Flutter-3.27%2B-02569B)](https://moonetix.com/integrations/flutter)
 
 This is the source of the `moonetix_offerwall` plugin for [Moonetix](https://moonetix.com). It uses the native Moonetix Android and iOS SDKs: the offerwall opens in a locked-down native screen, offer links go to the store or the browser, and a few typed events come back to your Dart code. Moonetix is an affiliate network: your users earn your own currency by completing offers, and you earn per completed offer.
 
-The source matches the released 2.0.1 plugin. For apps, install it from the Moonetix pub repository as shown below.
+The source matches the released 2.0.2 plugin. For apps, install it from [pub.dev](https://pub.dev/packages/moonetix_offerwall) as shown below.
 
 > To run it you need your Moonetix App ID and API key: see [Apply as a publisher](#apply-as-a-publisher).
 
@@ -47,13 +47,10 @@ sequenceDiagram
 
 ### 1. Install
 
-Flutter 3.27 or newer. The plugin is in the Moonetix package repository. Add it to your `pubspec.yaml` and run `flutter pub get`:
+Flutter 3.27 or newer. Add the plugin from pub.dev:
 
-```yaml
-dependencies:
-  moonetix_offerwall:
-    hosted: https://moonetix.com/pub
-    version: ^2.0.1
+```bash
+flutter pub add moonetix_offerwall
 ```
 
 - **iOS:** nothing to add. The plugin brings the Moonetix iOS SDK with it, for CocoaPods and for Swift Package Manager. Build with Xcode 16 or newer.
